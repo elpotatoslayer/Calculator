@@ -5,6 +5,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Live Link
 Click here for [live link](https://romantic-williams-bee2ec.netlify.app/)
 
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+[node.js](https://nodejs.org/en/download/)
+[git](https://git-scm.com/downloads)
+
+### Setup
+- Clone the repo `https://github.com/Ralph-1/Calculator.git`
+- `cd Calaculator` into the project
+- Run `git checkout milestone-1`
+- Run npm install to install all the dependencies
+- Run `npm start` to start the server locally
+
+### Tests 
+- Run `npm run test` to run all the tests, or
+- Run `npm run test:watch` to watch the tests
+
 ## Available Scripts
 
 In the project directory, you can run:
