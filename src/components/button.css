@@ -9,7 +9,7 @@
 }
 
 .button:hover {
-  background-color: #b9fdf6;
+  background-color: #69627e;
   transform: scale(1.04);
 }
 
@@ -18,8 +18,8 @@
 }
 
 .button:active {
-  background-color: #82fff2;
-  box-shadow: #b9fdf6 0 0 0 4px inset;
+  background-color: #69627e;
+  box-shadow: #766e8d 0 0 0 4px inset;
   transform: scale(1);
 }
 

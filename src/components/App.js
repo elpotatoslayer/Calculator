@@ -11,9 +11,9 @@ class App extends Component {
     super(props);
 
     this.state = {
-      total: null,
-      next: null,
-      operation: null,
+      total: undefined,
+      next: undefined,
+      operation: undefined,
     };
   }
 
@@ -23,6 +23,8 @@ class App extends Component {
   }
 
   render() {
+    const { total, next, operation } = this.state;
+
     return (
       <div className="app">
         <Display />
