@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import './App.css';
 import Display from './Display';
@@ -25,7 +26,7 @@ class App extends Component {
     return (
       <div className="app">
         <Display />
-        <ButtonPanel />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
