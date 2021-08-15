@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import './App.css';
 import Display from './Display';
@@ -17,17 +15,22 @@ class App extends Component {
     };
   }
 
-  handleClick(buttonName) {
-    const newState = calculate(this.state, buttonName);
-    this.setState(newState);
-  }
+  handleClick = ({ buttonName }) => {
+    const result = calculate(this.state, buttonName);
+
+    this.setState(result);
+  };
 
   render() {
     const { total, next, operation } = this.state;
 
     return (
       <div className="app">
-        <Display />
+        <Display
+          total={total}
+          next={next}
+          operation={operation}
+        />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

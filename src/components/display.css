@@ -1,0 +1,10 @@
+.display {
+  grid-row: 1 / span 2;
+  padding: 0.2em 0.4em;
+  font-size: 3em;
+  text-align: end;
+  background-color: rgba(154, 158, 154, 0.712);
+  color: rgb(65, 68, 65);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-break: anywhere;
+}

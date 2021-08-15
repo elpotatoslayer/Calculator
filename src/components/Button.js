@@ -6,7 +6,7 @@ export default function Button({ buttonName, clickHandler }) {
     <button
       type="button"
       className="button"
-      onClick={() => clickHandler(buttonName)}
+      onClick={() => clickHandler({ buttonName })}
       onContextMenu={(e) => {
         e.preventDefault();
         clickHandler(buttonName);

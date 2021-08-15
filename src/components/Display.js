@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './display.css';
 
 const Display = ({ total, next, operation }) => (
   <div className="display">
