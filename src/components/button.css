@@ -1,4 +1,28 @@
 .button {
   background-color: #4a445a;
   color: white;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  cursor: pointer;
+  transition: all 100ms;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #69627e;
+  transform: scale(1.04);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background-color: #69627e;
+  box-shadow: #766e8d 0 0 0 4px inset;
+  transform: scale(1);
+}
+
+.button--last {
+  grid-column: 3 / span 2;
 }
