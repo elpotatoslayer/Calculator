@@ -1,0 +1,14 @@
+.my-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1c630b;
+  border-right: #1c630b 2px solid;
+}
+
+.my-link:last-of-type {
+  border-right: none;
+}
+
+.my-link:hover {
+  color: #35b815;
+}
