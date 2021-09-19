@@ -1,4 +1,3 @@
-
 import calculate from '../logic/calculate';
 import '@testing-library/jest-dom/extend-expect';
 
